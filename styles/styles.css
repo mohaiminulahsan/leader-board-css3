@@ -37,8 +37,8 @@ header{
   justify-content: center;
 }
 .header {
-  /* width: 925px; */
-  width: 76vw;
+  width: 925px;
+  /* width: 46vw; */
   height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -264,6 +264,9 @@ top blogs styles
     width: 100%;
     text-align: center;
     padding: 20px 0;
+  }
+  .header{
+    width: 76vw;
   }
   .players{
     grid-template-columns: repeat(2, 1fr);
